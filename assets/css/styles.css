@@ -132,13 +132,20 @@ footer {
 
 @media (max-width: 768px){
   #navbar {
-    padding-left: 10px;
+    padding-left: 0px;
     padding-right: 0px;
+    flex-direction: column;
   }
   #navbar-links {
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
+   #navbar-links li{
+    text-decoration: underline;
+   }
   .product-box {
     width: 100%;
   }

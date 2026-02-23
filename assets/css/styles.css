@@ -137,9 +137,7 @@ footer {
     flex-direction: column;
   }
   #navbar-links {
-    flex-direction: row;
     gap: 40px;
-    justify-content: space-around;
     padding-top: 10px;
     padding-bottom: 10px;
   }
